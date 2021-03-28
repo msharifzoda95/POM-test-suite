@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module">
+    <test name="search-test-boxing">
+        <parameter name="keyword" value="boxing" />
+        <classes>
+            <class name = "com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+
+    <test name="search-test-mma">
+        <parameter name="keyword" value="mma" />
+        <classes>
+            <class name = "com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+
+    <test name="search-test-boxing-in-mma">
+        <parameter name="keyword" value="boxing in mma" />
+        <classes>
+            <class name = "com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+
+    <test name="search-test-registan">
+        <parameter name="keyword" value="registan" />
+        <classes>
+            <class name = "com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+</suite>
